@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+body {
+   background-image: url("Images/10.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: CURSIVE;
+    color: #000040;
+    text-align: center;
+}
+
+p {
+    font-family: Comic Sans MS;
+    font-size: 15px;
+    text-indent: 2.0em;
+    text-align: left;
+    color: #000040;
+}
