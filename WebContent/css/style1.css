@@ -241,7 +241,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .white-btn {
-    background: #FFF;
+    background: #ffffff;
     color: #10161A !important;
 }
 

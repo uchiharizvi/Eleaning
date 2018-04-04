@@ -28,4 +28,16 @@
  <url-pattern>/LoginServlet</url-pattern>
  </servlet-mapping>
  
+ <servlet>
+ <description></description>
+ <display-name>Userinfo</display-name>
+ <servlet-name>Userinfo</servlet-name>
+ <servlet-class>com.userinfo.Userinfo</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>Userinfo</servlet-name>
+ <url-pattern>/Userinfo</url-pattern>
+ </servlet-mapping>
+
 </web-app>

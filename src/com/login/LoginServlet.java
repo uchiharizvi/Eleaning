@@ -31,7 +31,7 @@ public class LoginServlet extends HttpServlet {
 		ResultSet rs = ps.executeQuery();
  
 		while (rs.next()) {
-			response.sendRedirect("success.html");
+			response.sendRedirect("profileindex.html");
 			return;
 		}
 		response.sendRedirect("error.html");

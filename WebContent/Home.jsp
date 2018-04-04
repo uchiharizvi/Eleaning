@@ -17,11 +17,11 @@ Our vision is to be the source for childhood learning on the internet available 
 We offer best-in-class courses in Mathematics, Science, Computer Science; and we're building a community for parents and educators to share innovations and insights in childhood education.
 </p><br><br>
 <form action="Register.jsp">
-<input type="submit" value="Register" />
+<input type="submit" value="INBOX" />
 </form>
 <br><br>
 <form action="Login.jsp">
-<input type="submit" value="LOGIN" />
+<input type="submit" value="COURSES" />
 </form>
 </div>
 </body>
