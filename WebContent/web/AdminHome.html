@@ -1,13 +1,7 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>LearningThroughKTuploads</title>
+<title>LearningThroughKTAdminHome</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="My Play Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -42,9 +36,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         
 			<div class="header-top-right">
-				
-				<div class="signin">
-					<a href="#small-dialog2" class="play-icon popup-with-zoom-anim">LOGOUT</a>
+				<div class="file">
+					<a href="upload.html">Upload</a>
+				</div>	
+								<div class="signin">
+					<a href="#small-dialog2" class="play-icon popup-with-zoom-anim">Logout</a>
 					<!-- pop-up-box -->
 									<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
 									<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
@@ -62,11 +58,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 										<div class="clearfix"> </div>
 									</div>	
-			
+									<div id="small-dialog3" class="mfp-hide">
+										<h3></h3> 
+										
+										
 										<div class="clearfix"> </div>
 									</div>	
 									
-								
+										<div class="signup">
+											<form action="upload.html">
+											</form>
+										</div>
+										<div class="clearfix"> </div>
+									</div>		
+									<div id="small-dialog4" class="mfp-hide">
+										
+									</div>
+									
 									<script>
 											$(document).ready(function() {
 											$('.popup-with-zoom-anim').magnificPopup({
@@ -84,41 +92,70 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											});
 									</script>	
 				</div>
-						
-						<div class="clearfix"> </div>
-					</div>
+                    
+				<div class="clearfix"> </div>
+			</div>
+        </div>
+		<div class="clearfix"> </div>
+      </div>
+    </nav>
+	
+        <div class="col-sm-3 col-md-2 sidebar">
+			<div class="top-navigation">
+				<div class="t-menu">MENU</div>
+				<div class="t-img">
+					<img src="images/lines.png" alt="" />
 				</div>
 				<div class="clearfix"> </div>
-			
-		<div class="clearfix"> </div>
-      
-    </nav>
-		<!-- upload -->
-
-			<!-- container -->
-			
-				
-					<div class="upload-right">
-						<div class="upload-file">
-							<div class="services-icon">
-								<span class="glyphicon glyphicon-open" aria-hidden="true"></span>
-							</div>
-							<input type="file" value="Choose file..">
-						</div>
-						<div class="upload-info">
-							<h5>Select files to upload</h5>
-							<span>or</span>
-							<p>Drag and drop files</p>
-						</div>
-					</div>
-					<div class="upload-right-bottom-grids">
-
-			<!-- //container -->
-		</div>
-		<!-- //upload -->
-
-						
+			</div>
+				<div class="drop-navigation drop-navigation">
+				  <ul class="nav nav-sidebar">
+					<li class="active"><a href="AdminHome.html" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+					<li><a href="Users.html" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>Users</a></li>
+					<li><a href="Discussions.html" class="sub-icon"><span class="glyphicon glyphicon-home glyphicon-hourglass" aria-hidden="true"></span>Discussions</a></li>	
+					<li><a href="Messages.html" class="news-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Messages</a></li>
+				 </ul>
+				  <!-- script-for-menu -->
+						<script>
+							$( ".top-navigation" ).click(function() {
+							$( ".drop-navigation" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+							});
+						</script>
 					
+				</div>
+        </div>
+						
+						<script src="js/responsiveslides.min.js"></script>
+						 <script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						  </script>
+						
+			
+						<div class="clearfix"> </div>
+					
+					
+				
+
+	
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

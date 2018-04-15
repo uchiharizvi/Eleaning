@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>LearningThroughKTuploads</title>
+<title>LearningThroughKTUserHome</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="My Play Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -37,13 +37,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="AdminHome.html">
-          <h3>Learning Through KT</h3></a>
+          <a class="navbar-brand" href="UserHome.html">
+          <h2>Learning Through KT</h2></a>
         </div>
-        
+        <div id="navbar" class="navbar-collapse collapse">
+			<div class="top-search">
+				<form class="navbar-form navbar-right">
+					<input type="text" class="form-control" placeholder="Search...">
+					<input type="submit" value=" ">
+				</form>
+			</div>  
 			<div class="header-top-right">
-				
-				<div class="signin">
+			<div class="signin">
 					<a href="#small-dialog2" class="play-icon popup-with-zoom-anim">LOGOUT</a>
 					<!-- pop-up-box -->
 									<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
@@ -56,15 +61,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<form>
 												
 												<input type="password" placeholder="Password" required="required" pattern=".{6,}" title="Minimum 6 characters required" autocomplete="off" />
-												&nbsp;	
 												<input type="submit"  value="LOGOUT"/>
 											</form>
 										</div>
-										<div class="clearfix"> </div>
-									</div>	
-			
-										<div class="clearfix"> </div>
-									</div>	
+							
 									
 								
 									<script>
@@ -88,37 +88,63 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"> </div>
 					</div>
 				</div>
-				<div class="clearfix"> </div>
-			
-		<div class="clearfix"> </div>
+				
       
     </nav>
-		<!-- upload -->
-
-			<!-- container -->
-			
-				
-					<div class="upload-right">
-						<div class="upload-file">
-							<div class="services-icon">
-								<span class="glyphicon glyphicon-open" aria-hidden="true"></span>
-							</div>
-							<input type="file" value="Choose file..">
-						</div>
-						<div class="upload-info">
-							<h5>Select files to upload</h5>
-							<span>or</span>
-							<p>Drag and drop files</p>
-						</div>
-					</div>
-					<div class="upload-right-bottom-grids">
-
-			<!-- //container -->
-		</div>
-		<!-- //upload -->
-
-						
+     <div class="col-sm-3 col-md-2 sidebar">
+			<div class="top-navigation">
+				<div class="t-menu">MENU</div>
+				<div class="t-img">
+					<img src="images/lines.png" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<div class="drop-navigation drop-navigation">
+				  <ul class="nav nav-sidebar">
+					<li class="active"><a href="UserHome.html" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+					<li><a href="profileindex.html" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>My Profile</a></li>
+					<li><a href="Discussions.html" class="sub-icon"><span class="glyphicon glyphicon-home glyphicon-hourglass" aria-hidden="true"></span>Discussions</a></li>	
+					<li><a href="Messages.html" class="news-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Messages</a></li>
+				 </ul>
+				  <!-- script-for-menu -->
+						<script>
+							$( ".top-navigation" ).click(function() {
+							$( ".drop-navigation" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+							});
+						</script>
 					
+				</div>
+        </div>
+    <body>
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<div class="main-grids">
+				<div class="top-grids">
+					<div class="recommended-info">
+						<h3>Recent Videos</h3>
+					</div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/h7huHkvPoEE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6oYcZ-D8Fyw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/whM2vDyAlr8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OIjFiOVNwUc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ubibHlUJGcM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HVzO45Eb5TY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WD3YZPR_ee0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    </div>
+    </div>
+    </body>
+
+
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

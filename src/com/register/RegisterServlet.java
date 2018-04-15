@@ -36,10 +36,10 @@ public class RegisterServlet extends HttpServlet {
 				out.print("You are successfully registered...");
 
 		} catch (Exception e2) {
-			System.out.println(e2);
+			System.out.println("user already exists");
 		}
 
-		out.close();
+		return;
 	}
 
 }

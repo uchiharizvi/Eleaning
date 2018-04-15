@@ -70,7 +70,7 @@ h1 img {
     font-family: 'Open Sans', sans-serif;
 }
 .styled-input {
-    border-bottom: 1px solid #f43434;
+    border-bottom: 1px solid #00ffff;
     background: rgba(8, 8, 8, 0.22);
     margin-bottom: 18px;
     padding: 14px;
@@ -86,7 +86,7 @@ select.category2 {
     color: #000;
 }
 label.header {
-    color: #f43434;
+    color: #004080;
     font-size: 18px;
     margin: 9px 0px 15px;
     letter-spacing: 1px;
@@ -99,7 +99,7 @@ label.header {
 .register-form input[type="submit"] {
     outline: none;
     color: #FFF;
-    background: #f43434;
+    background: #00ffff;
     color: #fff;
     border: none;
     padding: 11px 40px;
@@ -125,7 +125,7 @@ label.header {
 .register-form input[type="reset"] {
     outline: none;
     color: #FFF;
-    background: #f43434;
+    background: #00ffff;
     color: #fff;
     border: none;
     padding: 11px 40px;
@@ -183,7 +183,7 @@ label.header {
     letter-spacing: 2px;
 }
 .w3copyright-agile h2 a{
-    color: #f43640; 
+    color: #00ffff; 
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
